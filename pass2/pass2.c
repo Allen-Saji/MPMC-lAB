@@ -7,7 +7,7 @@ int main()
 {
   char a[10],ad[10],label[10],opcode[10],operand[10],symbol[10],ch;  int st,diff,i,address=0,add,len,actual_len,finaddr,prevaddr,j=0;
   char mnemonic[15][15]={"LDA","STA","LDCH","STCH", "END"};
-  char code[15][15]={"0","20","30","40", "00"};
+  char code[15][15]={"00","20","30","40", "00"};
   FILE *fp1,*fp2,*fp3,*fp4;
   fp1=fopen("output.txt","w");
   fp2=fopen("symbol.txt","r");
